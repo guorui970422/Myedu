@@ -17,8 +17,23 @@ def list_del():
     blist.pop(1)
     print(alist)
     print(blist)
-
-
-
+def alist_app():
+    alist = [9,8,7,6,5,4,3,2,1]
+    alist.append('诶嘿嘿')
+    print(alist)
+    alist.append('hihihi')
+    print(alist)
+def blist_sel():
+    blist = [9,8,7,6,5,4]
+    print(blist[0:2])
+    blist.append('hahaha')
+def clist_lit():
+    apc = [1,2,3,4,5,6,'你好']
+    bpc = apc[:6]
+    cpc = apc[-1]
+    print('%s%s'%(cpc,bpc))
 if __name__ == '__main__':
-    list_del()
+    # list_del()
+    # alist_app()
+    # blist_sel()
+    clist_lit()
