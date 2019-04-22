@@ -4,3 +4,7 @@ if __name__ == '__main__':
     # text_io = open('test_text','a+')
     # text_io.write('我的快乐风男也很强')
     text_io = open('test_text','r')
+    # readline = text_io.readline()
+    # print(readline)
+    readlines = text_io.readlines()
+    print(readlines)
